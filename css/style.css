@@ -5112,6 +5112,10 @@ button,
 .select__slide {
   width: 100%;
   height: 150px;
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
 }
 
 .select__slide img {
@@ -5163,6 +5167,13 @@ button,
   -webkit-box-flex: 1;
   -ms-flex: 1;
   flex: 1;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.select__tab-text:hover {
+  color: #3bb973;
 }
 
 .select__nal {
@@ -7026,6 +7037,10 @@ button,
 .select1__slide {
   width: 100%;
   height: 150px;
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
 }
 
 .select1__slide img {
@@ -7077,6 +7092,13 @@ button,
   -webkit-box-flex: 1;
   -ms-flex: 1;
   flex: 1;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.select1__tab-text:hover {
+  color: #3bb973;
 }
 
 .select1__nal {
